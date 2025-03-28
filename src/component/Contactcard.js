@@ -1,5 +1,5 @@
 import React from "react"
-import user from "../Images/images.jpeg"
+
 const ContactCard=(prop)=>{
     const {id,name,email}=prop.contact;
    return(
@@ -9,7 +9,7 @@ const ContactCard=(prop)=>{
       
     
       <div className="content">
-        <img className="ui avatar image" src={user}></img>
+      <img className="ui avatar image" src="/images.jpeg" alt="User" />
         <div className="header">{name}</div>
         
         <div>{email}</div>
